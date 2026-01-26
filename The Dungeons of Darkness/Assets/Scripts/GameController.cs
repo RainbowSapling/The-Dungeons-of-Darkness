@@ -3,6 +3,7 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     [HideInInspector] public RoomNavigation roomNavigation;
+
     public AudioSource audioSource = new AudioSource();
 
     void Awake()

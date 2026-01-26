@@ -5,5 +5,5 @@ public class Room : ScriptableObject
 {
     public string roomName;
     public AudioClip clip;
-
+    public Exit[] exits;
 }

@@ -10,12 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 33f4576d4597e6a4db90b3aa749409fb, type: 3}
-  m_Name: Start
+  m_Name: Room2
   m_EditorClassIdentifier: Assembly-CSharp::Room
-  roomName: Starting room
-  clip: {fileID: 8300000, guid: 212ac55ad2ac5e64dbd93885e2a97300, type: 3}
-  exits:
-  - option: option1
-    room: {fileID: 11400000, guid: 578048a1da13fe24eacf8875b3fed7ef, type: 2}
-  - option: option2
-    room: {fileID: 11400000, guid: 0a4e4150adb18b2498248a9da8899b0a, type: 2}
+  roomName: Room2
+  clip: {fileID: 8300000, guid: d091a4cca4df7f74094bbfcda1a15e3e, type: 3}
+  exits: []
