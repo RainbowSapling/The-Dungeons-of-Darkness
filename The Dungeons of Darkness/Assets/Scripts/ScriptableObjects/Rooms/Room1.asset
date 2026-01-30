@@ -14,4 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Room
   roomName: Room1
   clip: {fileID: 8300000, guid: fe9e83d9309cc504b8e026b7add24279, type: 3}
-  exits: []
+  exits:
+  - option: option1
+    room: {fileID: 11400000}
+  - option: option2
+    room: {fileID: 11400000, guid: 0a4e4150adb18b2498248a9da8899b0a, type: 2}
