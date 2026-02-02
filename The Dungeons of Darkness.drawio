@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
   <diagram name="Sida-1" id="fW8RCnzTAmgBvOjBW9J0">
-    <mxGraphModel dx="6065" dy="4284" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1348" dy="1861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -285,6 +285,11 @@
         <mxCell id="yb4LvlyApvSKv98z8VU6-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;South&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="160" x="5350" y="330" as="geometry" />
         </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-38" edge="1" parent="1" source="yb4LvlyApvSKv98z8VU6-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6110" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="yb4LvlyApvSKv98z8VU6-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;North&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="160" x="5350" y="170" as="geometry" />
         </mxCell>
@@ -379,6 +384,151 @@
         </mxCell>
         <mxCell id="FS-BcXCiowx4MnNQ4kOs-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Yes.&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;(Receive a warning about goblins to the north)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="280" x="4640" y="-45" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-42" edge="1" parent="1" source="FS-BcXCiowx4MnNQ4kOs-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FS-BcXCiowx4MnNQ4kOs-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-43" edge="1" parent="1" source="FS-BcXCiowx4MnNQ4kOs-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FS-BcXCiowx4MnNQ4kOs-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;You arrive at a crossing. Which way do you go?&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="6110" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-47" edge="1" parent="1" source="FS-BcXCiowx4MnNQ4kOs-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FS-BcXCiowx4MnNQ4kOs-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-51" edge="1" parent="1" source="FS-BcXCiowx4MnNQ4kOs-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FS-BcXCiowx4MnNQ4kOs-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Go to the forest&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="6440" y="-60" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Go to the river&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="6440" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-48" edge="1" parent="1" source="FS-BcXCiowx4MnNQ4kOs-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FS-BcXCiowx4MnNQ4kOs-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Find your own way&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="6810" y="-140" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-53" edge="1" parent="1" source="FS-BcXCiowx4MnNQ4kOs-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FS-BcXCiowx4MnNQ4kOs-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Follow the paths&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="6810" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-50" edge="1" parent="1" source="FS-BcXCiowx4MnNQ4kOs-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FS-BcXCiowx4MnNQ4kOs-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="7470" y="-110" />
+              <mxPoint x="7470" y="-240" />
+              <mxPoint x="6400" y="-240" />
+              <mxPoint x="6400" y="-30" />
+            </Array>
+            <mxPoint x="7280" y="-340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;You walk for a few hours before you realize you are lost. You try to retrace your steps...&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="7170" y="-140" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-56" edge="1" parent="1" source="FS-BcXCiowx4MnNQ4kOs-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FS-BcXCiowx4MnNQ4kOs-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-57" edge="1" parent="1" source="FS-BcXCiowx4MnNQ4kOs-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FS-BcXCiowx4MnNQ4kOs-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;You see a goblin camp in the distance. From the camp you hear a distressed scream that doesn&#39;t sound like a goblin. You haven&#39;t been spotted yet, what do you do?&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="280" x="7170" y="-5" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-60" edge="1" parent="1" source="FS-BcXCiowx4MnNQ4kOs-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FS-BcXCiowx4MnNQ4kOs-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Approach slowly, staying hidden.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="7570" y="-65" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-81" edge="1" parent="1" source="FS-BcXCiowx4MnNQ4kOs-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FS-BcXCiowx4MnNQ4kOs-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10440" y="125" />
+              <mxPoint x="10440" y="-185" />
+            </Array>
+            <mxPoint x="10468.823529411762" y="-190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Ignore it and walk off in a different direction.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="7570" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-62" edge="1" parent="1" source="FS-BcXCiowx4MnNQ4kOs-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FS-BcXCiowx4MnNQ4kOs-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-63" edge="1" parent="1" source="FS-BcXCiowx4MnNQ4kOs-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FS-BcXCiowx4MnNQ4kOs-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;You see a camp full of goblins. They are gathered around a big fire eating. At the edge of the camp you see an orc woman in a cage. What do you do?&lt;/span&gt;" vertex="1">
+          <mxGeometry height="85" width="280" x="7940" y="-77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-80" edge="1" parent="1" source="FS-BcXCiowx4MnNQ4kOs-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FS-BcXCiowx4MnNQ4kOs-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10440" y="38" />
+              <mxPoint x="10440" y="-185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-59" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Leave, there are too many goblins here.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="8300" y="7.5" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-69" edge="1" parent="1" source="FS-BcXCiowx4MnNQ4kOs-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FS-BcXCiowx4MnNQ4kOs-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Stealthily approach the cage&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="8300" y="-140" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-67" edge="1" parent="1" source="FS-BcXCiowx4MnNQ4kOs-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FS-BcXCiowx4MnNQ4kOs-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-68" edge="1" parent="1" source="FS-BcXCiowx4MnNQ4kOs-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FS-BcXCiowx4MnNQ4kOs-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;You whisper to the orc that you are here to rescue her. She tells you she is from the nearby town. The cage is locked, how do you try to open it?&lt;/span&gt;" vertex="1">
+          <mxGeometry height="90" width="280" x="8680" y="-155" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-71" edge="1" parent="1" source="FS-BcXCiowx4MnNQ4kOs-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FS-BcXCiowx4MnNQ4kOs-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;You get your sword out and try to break the lock with a big swing.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="9050" y="-65" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-74" edge="1" parent="1" source="FS-BcXCiowx4MnNQ4kOs-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FS-BcXCiowx4MnNQ4kOs-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-66" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;You attempt to pick the lock.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="9050" y="-215" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;With a load crack the lock falls to the ground in pieces. You look back to the camp and see every single goblin staring at you. You try to fight them off but there are to many. You have died...&lt;/span&gt;" vertex="1">
+          <mxGeometry height="102.5" width="280" x="9430" y="-86.25" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-75" edge="1" parent="1" source="FS-BcXCiowx4MnNQ4kOs-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FS-BcXCiowx4MnNQ4kOs-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;The lock clicks open, and the two of you stealthily hurry away. After a few minutes you stumble upon a goblin on its way to the camp.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="90" width="280" x="9430" y="-230" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-77" edge="1" parent="1" source="FS-BcXCiowx4MnNQ4kOs-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FS-BcXCiowx4MnNQ4kOs-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-73" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Fight the goblin&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="240" x="9780" y="-225" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-79" edge="1" parent="1" source="FS-BcXCiowx4MnNQ4kOs-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FS-BcXCiowx4MnNQ4kOs-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-76" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;After dealing with the goblin you part ways with the orc. She assures you that she can get back to the town by herself. You carry on walking north.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="85" width="280" x="10100" y="-227.5" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-78" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Something&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="10490" y="-215" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
