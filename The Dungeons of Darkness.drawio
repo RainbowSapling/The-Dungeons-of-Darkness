@@ -447,7 +447,7 @@
         <mxCell id="FS-BcXCiowx4MnNQ4kOs-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Approach slowly, staying hidden.&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="280" x="7570" y="-65" as="geometry" />
         </mxCell>
-        <mxCell id="FS-BcXCiowx4MnNQ4kOs-81" edge="1" parent="1" source="FS-BcXCiowx4MnNQ4kOs-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FS-BcXCiowx4MnNQ4kOs-78">
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-81" edge="1" parent="1" source="lLoh9tLJKBlNS2tbCJMA-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="FS-BcXCiowx4MnNQ4kOs-78">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="10440" y="125" />
@@ -556,6 +556,22 @@
         </mxCell>
         <mxCell id="lLoh9tLJKBlNS2tbCJMA-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;You arrive at the dungeon.&lt;/font&gt;" vertex="1">
           <mxGeometry height="60" width="280" x="11720" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="lLoh9tLJKBlNS2tbCJMA-11" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Fight the goblin&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="240" x="9590" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="lLoh9tLJKBlNS2tbCJMA-12" edge="1" parent="1" source="FS-BcXCiowx4MnNQ4kOs-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="lLoh9tLJKBlNS2tbCJMA-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="7850" y="125" as="sourcePoint" />
+            <mxPoint x="10490" y="-185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLoh9tLJKBlNS2tbCJMA-14" edge="1" parent="1" source="lLoh9tLJKBlNS2tbCJMA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="lLoh9tLJKBlNS2tbCJMA-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLoh9tLJKBlNS2tbCJMA-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;On your way away from the camp you encounter a goblin.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="9200" y="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
