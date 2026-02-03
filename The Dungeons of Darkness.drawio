@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
   <diagram name="Sida-1" id="fW8RCnzTAmgBvOjBW9J0">
-    <mxGraphModel dx="1348" dy="1861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1277" dy="1825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -527,8 +527,35 @@
         <mxCell id="FS-BcXCiowx4MnNQ4kOs-76" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;After dealing with the goblin you part ways with the orc. She assures you that she can get back to the town by herself. You carry on walking north.&lt;/span&gt;" vertex="1">
           <mxGeometry height="85" width="280" x="10100" y="-227.5" as="geometry" />
         </mxCell>
-        <mxCell id="FS-BcXCiowx4MnNQ4kOs-78" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Something&lt;/font&gt;" vertex="1">
+        <mxCell id="lLoh9tLJKBlNS2tbCJMA-4" edge="1" parent="1" source="FS-BcXCiowx4MnNQ4kOs-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="lLoh9tLJKBlNS2tbCJMA-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-78" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Walk for a bit and see a rat scurry across the path. Think nothing of it.&lt;/font&gt;" vertex="1">
           <mxGeometry height="60" width="280" x="10490" y="-215" as="geometry" />
+        </mxCell>
+        <mxCell id="lLoh9tLJKBlNS2tbCJMA-5" edge="1" parent="1" source="lLoh9tLJKBlNS2tbCJMA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="lLoh9tLJKBlNS2tbCJMA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLoh9tLJKBlNS2tbCJMA-6" edge="1" parent="1" source="lLoh9tLJKBlNS2tbCJMA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lLoh9tLJKBlNS2tbCJMA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLoh9tLJKBlNS2tbCJMA-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;After a while you see the rat again. Strange... You continue on. You see the rat again and without thinking ask out loud if the rat is following you. To your surprise the rat answers. The rat explains that it is headed to the dungeon.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="280" x="10870" y="-255" as="geometry" />
+        </mxCell>
+        <mxCell id="lLoh9tLJKBlNS2tbCJMA-8" edge="1" parent="1" source="lLoh9tLJKBlNS2tbCJMA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="lLoh9tLJKBlNS2tbCJMA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLoh9tLJKBlNS2tbCJMA-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Offer to carry the rat there.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="11250" y="-315" as="geometry" />
+        </mxCell>
+        <mxCell id="lLoh9tLJKBlNS2tbCJMA-9" edge="1" parent="1" source="lLoh9tLJKBlNS2tbCJMA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="lLoh9tLJKBlNS2tbCJMA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLoh9tLJKBlNS2tbCJMA-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Leave it be and continue walking.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="11250" y="-115" as="geometry" />
+        </mxCell>
+        <mxCell id="lLoh9tLJKBlNS2tbCJMA-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;You arrive at the dungeon.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="11720" y="155" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
