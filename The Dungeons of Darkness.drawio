@@ -557,6 +557,9 @@
         <mxCell id="lLoh9tLJKBlNS2tbCJMA-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Leave it be and continue walking.&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="280" x="11250" y="-115" as="geometry" />
         </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-17" edge="1" parent="1" source="lLoh9tLJKBlNS2tbCJMA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zza9-oai0NsfoSXPA4mj-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lLoh9tLJKBlNS2tbCJMA-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;You arrive at the dungeon.&lt;/font&gt;" vertex="1">
           <mxGeometry height="60" width="280" x="12040" y="80" as="geometry" />
         </mxCell>
@@ -722,6 +725,117 @@
         </mxCell>
         <mxCell id="zza9-oai0NsfoSXPA4mj-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Leave her here.&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="280" x="11600" y="453.75" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-20" edge="1" parent="1" source="zza9-oai0NsfoSXPA4mj-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zza9-oai0NsfoSXPA4mj-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-21" edge="1" parent="1" source="zza9-oai0NsfoSXPA4mj-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zza9-oai0NsfoSXPA4mj-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;You open the gate and see a set of stairs leading down deep underground. You descend down the stairs and arrive in a small room. There is a closed door to your left and a corridor straight ahead. Where do you go?&lt;/font&gt;" vertex="1">
+          <mxGeometry height="140" width="280" x="12430" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Open the door and enter the room.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="12819" y="-20" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-24" edge="1" parent="1" source="zza9-oai0NsfoSXPA4mj-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zza9-oai0NsfoSXPA4mj-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Go down the corridor&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="12819" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-26" edge="1" parent="1" source="zza9-oai0NsfoSXPA4mj-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zza9-oai0NsfoSXPA4mj-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-27" edge="1" parent="1" source="zza9-oai0NsfoSXPA4mj-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zza9-oai0NsfoSXPA4mj-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;You enter a larger room, there are two exits to the room, one straight ahead and one to your right. Where do you go?&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="280" x="13200" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-33" edge="1" parent="1" source="zza9-oai0NsfoSXPA4mj-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zza9-oai0NsfoSXPA4mj-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Go straight&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="13570" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Go right&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="13570" y="322.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-31" edge="1" parent="1" source="zza9-oai0NsfoSXPA4mj-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zza9-oai0NsfoSXPA4mj-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-32" edge="1" parent="1" source="zza9-oai0NsfoSXPA4mj-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zza9-oai0NsfoSXPA4mj-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;You arrive at a crossing, you can either go left or right.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="13960" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-42" edge="1" parent="1" source="zza9-oai0NsfoSXPA4mj-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zza9-oai0NsfoSXPA4mj-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Go right&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="14332" y="102.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-35" edge="1" parent="1" source="zza9-oai0NsfoSXPA4mj-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zza9-oai0NsfoSXPA4mj-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Go left&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="14332" y="-60" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;You arrive at a door. Inside you see a kobold sitting on the floor with a couple of items laid out on a blanket in front of it. It&#39;s a merchant.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="280" x="14740" y="-75" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-36" edge="1" parent="1" source="zza9-oai0NsfoSXPA4mj-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zza9-oai0NsfoSXPA4mj-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-37" edge="1" parent="1" source="zza9-oai0NsfoSXPA4mj-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zza9-oai0NsfoSXPA4mj-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;You arrive at another crossing, you can either go left or right.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="14740" y="102.25" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Go right&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="15112" y="183.75" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-44" edge="1" parent="1" source="zza9-oai0NsfoSXPA4mj-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zza9-oai0NsfoSXPA4mj-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Go left&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="15112" y="21.25" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-47" edge="1" parent="1" source="zza9-oai0NsfoSXPA4mj-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zza9-oai0NsfoSXPA4mj-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-48" edge="1" parent="1" source="zza9-oai0NsfoSXPA4mj-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zza9-oai0NsfoSXPA4mj-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;You go down a long corridor. About halfway down the corridor there is an altar placed along the wall. Do you stop to investigate?&lt;/font&gt;" vertex="1">
+          <mxGeometry height="78.75" width="280" x="15520" y="11.88" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Investigate.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="15890" y="-48.120000000000005" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-54" edge="1" parent="1" source="zza9-oai0NsfoSXPA4mj-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zza9-oai0NsfoSXPA4mj-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Walk past.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="15890" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-52" edge="1" parent="1" source="zza9-oai0NsfoSXPA4mj-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zza9-oai0NsfoSXPA4mj-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-53" edge="1" parent="1" source="zza9-oai0NsfoSXPA4mj-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zza9-oai0NsfoSXPA4mj-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Further down the corridor there is a closed door on the left. What do you do?&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="16400" y="21.259999999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Open and enter.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="16800" y="-43.75" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Walk past.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="16800" y="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
