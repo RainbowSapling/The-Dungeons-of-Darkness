@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.7">
   <diagram name="Sida-1" id="fW8RCnzTAmgBvOjBW9J0">
-    <mxGraphModel dx="1155" dy="1762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1516" dy="1948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -558,7 +558,7 @@
           <mxGeometry height="60" width="280" x="11250" y="-115" as="geometry" />
         </mxCell>
         <mxCell id="lLoh9tLJKBlNS2tbCJMA-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;You arrive at the dungeon.&lt;/font&gt;" vertex="1">
-          <mxGeometry height="60" width="280" x="11720" y="155" as="geometry" />
+          <mxGeometry height="60" width="280" x="12040" y="80" as="geometry" />
         </mxCell>
         <mxCell id="lLoh9tLJKBlNS2tbCJMA-11" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Fight the goblin&lt;/font&gt;" vertex="1">
           <mxGeometry height="80" width="240" x="9590" y="85" as="geometry" />
@@ -667,11 +667,61 @@
         <mxCell id="9tBxEngt5iG6m06beJ8u-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Jump across.&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="280" x="10120" y="322.5" as="geometry" />
         </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-2" edge="1" parent="1" source="9tBxEngt5iG6m06beJ8u-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zza9-oai0NsfoSXPA4mj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9tBxEngt5iG6m06beJ8u-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Ignore the treasure and continue on.&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="280" x="10120" y="470" as="geometry" />
         </mxCell>
         <mxCell id="9tBxEngt5iG6m06beJ8u-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;You start skipping across the rocks. About halfway across the river you slip and bang your head on one of the other rocks. You loose consciousness as you fall into the river. You drown...&lt;/span&gt;" vertex="1">
           <mxGeometry height="110" width="280" x="10480" y="297.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-5" edge="1" parent="1" source="zza9-oai0NsfoSXPA4mj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zza9-oai0NsfoSXPA4mj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-6" edge="1" parent="1" source="zza9-oai0NsfoSXPA4mj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zza9-oai0NsfoSXPA4mj-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;After walking for a bit you spot an injured child in the distance lying among the rocks. As you get closer you notice that the child is a goblin who is bleeding heavily from a deep cut on their leg. What do you do?&lt;/span&gt;" vertex="1">
+          <mxGeometry height="125" width="280" x="10480" y="437.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-10" edge="1" parent="1" source="zza9-oai0NsfoSXPA4mj-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zza9-oai0NsfoSXPA4mj-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Help the goblin and treat her wound.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="10870" y="377.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-15" edge="1" parent="1" source="zza9-oai0NsfoSXPA4mj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="lLoh9tLJKBlNS2tbCJMA-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="11960" y="593" />
+              <mxPoint x="11960" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Leave her and continue walking. She is a goblin after all, could be dangerous...&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="10870" y="562.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-11" edge="1" parent="1" source="zza9-oai0NsfoSXPA4mj-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zza9-oai0NsfoSXPA4mj-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-12" edge="1" parent="1" source="zza9-oai0NsfoSXPA4mj-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zza9-oai0NsfoSXPA4mj-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;The goblin is very grateful and offers to come along on your adventure. She will need to be carried for a while though while her leg heals.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="92.5" width="280" x="11240" y="361.25" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-13" edge="1" parent="1" source="zza9-oai0NsfoSXPA4mj-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="lLoh9tLJKBlNS2tbCJMA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Let her come along.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="11600" y="301.25" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-14" edge="1" parent="1" source="zza9-oai0NsfoSXPA4mj-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="lLoh9tLJKBlNS2tbCJMA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zza9-oai0NsfoSXPA4mj-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Leave her here.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="11600" y="453.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
