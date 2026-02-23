@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.4.0">
   <diagram name="Sida-1" id="fW8RCnzTAmgBvOjBW9J0">
-    <mxGraphModel dx="1277" dy="1825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1516" dy="1948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,7 +64,7 @@
         <mxCell id="wHSGlLiUIubRx7QIVF6I-8" parent="FS-BcXCiowx4MnNQ4kOs-32" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;[TD1] Talk to people in the tavern.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;(There are only a few people there)&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="230" x="650" y="935" as="geometry" />
         </mxCell>
-        <mxCell id="yb4LvlyApvSKv98z8VU6-16" parent="FS-BcXCiowx4MnNQ4kOs-32" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;[TD2] Talk to the orc sitting alone at the bar.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;(She tells you her wife went to the forest in the north but hasn&#39;t come back)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="yb4LvlyApvSKv98z8VU6-16" parent="FS-BcXCiowx4MnNQ4kOs-32" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;[TD2] Talk to the orc sitting alone at the bar.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 16px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(She tells you her wife went to the forest in the north but hasn&#39;t come back)&lt;/span&gt;" vertex="1">
           <mxGeometry height="90" width="290" x="970" y="675" as="geometry" />
         </mxCell>
         <mxCell id="yb4LvlyApvSKv98z8VU6-21" edge="1" parent="FS-BcXCiowx4MnNQ4kOs-32" source="wHSGlLiUIubRx7QIVF6I-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yb4LvlyApvSKv98z8VU6-16">
