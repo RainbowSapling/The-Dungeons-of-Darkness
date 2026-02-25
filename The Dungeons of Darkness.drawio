@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.2">
   <diagram name="Sida-1" id="fW8RCnzTAmgBvOjBW9J0">
-    <mxGraphModel dx="1348" dy="1861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1617" dy="2000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -470,15 +470,13 @@
         <mxCell id="FS-BcXCiowx4MnNQ4kOs-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;[F3]&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Follow the paths&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="280" x="6810" y="15" as="geometry" />
         </mxCell>
-        <mxCell id="FS-BcXCiowx4MnNQ4kOs-50" edge="1" parent="1" source="FS-BcXCiowx4MnNQ4kOs-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FS-BcXCiowx4MnNQ4kOs-40">
+        <mxCell id="2KXvoFcipO9NSaGlvjZw-1" edge="1" parent="1" source="FS-BcXCiowx4MnNQ4kOs-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FS-BcXCiowx4MnNQ4kOs-45">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="7470" y="-110" />
-              <mxPoint x="7470" y="-240" />
-              <mxPoint x="6400" y="-240" />
-              <mxPoint x="6400" y="-30" />
+              <mxPoint x="7480" y="-110" />
+              <mxPoint x="7480" y="-40" />
+              <mxPoint x="6950" y="-40" />
             </Array>
-            <mxPoint x="7280" y="-340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FS-BcXCiowx4MnNQ4kOs-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;[F4]&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;You walk for a few hours before you realise you are lost. You try to retrace your steps...&lt;/span&gt;" vertex="1">
