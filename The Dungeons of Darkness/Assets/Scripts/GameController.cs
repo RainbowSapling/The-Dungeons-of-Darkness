@@ -1,54 +1,36 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
-    [HideInInspector] public RoomNavigation roomNavigation;
+    InputAction option1;
+    InputAction option2;
 
-    // Plays audio
-    public AudioSource audioSource;
-
-    //Menu buttons for making choices in the game
-    public Button button1;
-    public Button button2;
-
-
-    void Awake()
-    {
-        // Assign the room navigation script
-        roomNavigation = GetComponent<RoomNavigation>();
-
-        // Add event listeners to buttons
-        button1.onClick.AddListener(ChooseOption1);
-        button2.onClick.AddListener(ChooseOption2);
-    }
+    [SerializeField] AudioSource narrator;
 
     void Start()
     {
-        // Plays the audio of the first room
-        PlayRoomAudio();
+        option1 = InputSystem.actions.FindAction("Option1");
+        option2 = InputSystem.actions.FindAction("Option2");
+
+        narrator.Play();
     }
 
-    // Plays the audio for the current room
-    public void PlayRoomAudio()
+    void Update()
     {
-        AudioClip clip = roomNavigation.currentRoom.clip;
-        audioSource.clip = clip;
-        audioSource.Play();
-    }
+        if (option1.IsPressed() && narrator.isPlaying == false)
+        {
+            Debug.Log("Option 1 was pressed");
+            SceneManager.LoadScene("T2");
+        }
 
-    public void ChooseOption1()
-    {
-        Debug.Log("option 1");
-        Room nextRoom = roomNavigation.currentRoom.exits[0].room;
-        roomNavigation.ChangeRoom(nextRoom);
-    }
-
-    public void ChooseOption2()
-    {
-        Debug.Log("option 2");
-        Room nextRoom = roomNavigation.currentRoom.exits[1].room;
-        roomNavigation.ChangeRoom(nextRoom);
+        if (option2.IsPressed() && narrator.isPlaying == false)
+        {
+            Debug.Log("Option 2 was pressed");
+            SceneManager.LoadScene("T3");
+        }
     }
 
 
