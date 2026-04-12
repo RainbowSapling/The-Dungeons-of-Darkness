@@ -2,11 +2,21 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+using Newtonsoft.Json;
+
+public class Scene
+{
+    public string scene;
+    public string option1;
+    public string option2;
+}
 
 public class GameController : MonoBehaviour
 {
     InputAction option1;
     InputAction option2;
+
+    Scene[] sceneManager;
 
     [SerializeField] AudioSource narrator;
 
@@ -16,6 +26,8 @@ public class GameController : MonoBehaviour
         option2 = InputSystem.actions.FindAction("Option2");
 
         narrator.Play();
+
+        LoadScenes();
     }
 
     void Update()
@@ -33,5 +45,15 @@ public class GameController : MonoBehaviour
         }
     }
 
+
+    void LoadScenes()
+    {
+        string filePath = Application.dataPath + "/Scenes/sceneManager.json";
+        string sceneData = System.IO.File.ReadAllText(filePath);
+
+        sceneManager = Newtonsoft.Json.JsonConvert.DeserializeObject<Scene[]>(sceneData);
+
+        Debug.Log(sceneManager[1].scene);
+    }
 
 }
