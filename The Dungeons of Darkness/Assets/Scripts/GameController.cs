@@ -4,10 +4,12 @@ using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using Newtonsoft.Json;
 using System;
+using TMPro;
 
 
 public class GameController : MonoBehaviour
 {
+    // Class for scenes
     public class Scene
     {
         public string scene;
@@ -23,6 +25,11 @@ public class GameController : MonoBehaviour
 
     // Narrator audio file
     [SerializeField] AudioSource narrator;
+
+    // Text boxes
+    [SerializeField] TMP_Text displayCurrent;
+    [SerializeField] TMP_Text displayOption1;
+    [SerializeField] TMP_Text displayOption2;
 
     void Start()
     {
@@ -42,8 +49,10 @@ public class GameController : MonoBehaviour
             CurrentScene.currentScene = sceneManager[0];
         }
 
-        //Scene test = Array.Find(sceneManager, element => element.scene == currentScene.option1);
-        Debug.Log(CurrentScene.currentScene.scene);
+        // Update text on screen
+        displayCurrent.text = CurrentScene.currentScene.scene;
+        displayOption1.text = CurrentScene.currentScene.option1;
+        displayOption2.text = CurrentScene.currentScene.option2;
     }
 
     void Update()
