@@ -2,5 +2,17 @@
 {"scene":"I1", "option1":"T1", "option2":null},
 {"scene":"T1", "option1":"T2", "option2":"T3"},
 {"scene":"T2", "option1":"TD1", "option2":"VD1"},
-{"scene":"T3", "option1":"TN1", "option2":"VN1"}
+{"scene":"T3", "option1":"TN1", "option2":"VN1"},
+{"scene":"TD1", "option1":"TD3", "option2":"TD2"},
+{"scene":"TD2", "option1":"TD4", "option2":"TD6"},
+{"scene":"TD3", "option1":"TD5", "option2":"TD6"},
+{"scene":"TD4", "option1":"TD6", "option2":null},
+{"scene":"TD5", "option1":"TD6", "option2":null},
+{"scene":"TD6", "option1":"VD2", "option2":null},
+{"scene":"TN1", "option1":"TN2", "option2":"TN3"},
+{"scene":"TN2", "option1":"TN4", "option2":"TN6"},
+{"scene":"TN3", "option1":"TN5", "option2":"TN6"},
+{"scene":"TN4", "option1":"TN6", "option2":null},
+{"scene":"TN5", "option1":"TN6", "option2":null},
+{"scene":"TN6", "option1":"VN2", "option2":null}
 ]
