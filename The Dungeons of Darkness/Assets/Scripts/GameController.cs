@@ -46,7 +46,8 @@ public class GameController : MonoBehaviour
         // Assign current scene
         if (CurrentScene.currentScene.scene == null)
         {
-            CurrentScene.currentScene = sceneManager[0];
+            string activeScene = SceneManager.GetActiveScene().name;
+            CurrentScene.currentScene = Array.Find(sceneManager, element => element.scene == activeScene);
         }
 
         // Update text on screen
