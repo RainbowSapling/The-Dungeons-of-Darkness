@@ -46,7 +46,9 @@ public class GameController : MonoBehaviour
         // Assign current scene
         if (CurrentScene.currentScene.scene == null)
         {
+            // Find active scene (able to start game from any scene for testing)
             string activeScene = SceneManager.GetActiveScene().name;
+            // Set current scene to active scene
             CurrentScene.currentScene = Array.Find(sceneManager, element => element.scene == activeScene);
         }
 
