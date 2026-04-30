@@ -1481,9 +1481,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6658f5bfb6445c3478d1959e671d4169, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Music
-  village2: {fileID: 8300000, guid: bdaeaba07cccaea48a9f851d70e64493, type: 3}
-  forrest1: {fileID: 8300000, guid: 2e60e5e03c7db6a4e997e26841a99cf9, type: 3}
-  forrest2: {fileID: 8300000, guid: 793b528c61bab624ba4e166e1ca1354e, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
