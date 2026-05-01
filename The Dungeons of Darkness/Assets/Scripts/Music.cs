@@ -6,20 +6,24 @@ public class Music : MonoBehaviour
     public static Music instance;
 
     // All music clips
-    AudioClip village1;
-    AudioClip village2;
-    AudioClip forrest1;
-    AudioClip forrest2;
+    AudioClip tavernRoom;
+    AudioClip villageDay;
+    AudioClip villageNight;
+    AudioClip forest1;
+    AudioClip forest2;
     AudioClip river1;
+    AudioClip dungeon1;
 
 
     void Awake()
     {
-        village1 = Resources.Load<AudioClip>("Village1");
-        village2 = Resources.Load<AudioClip>("Village2");
-        forrest1 = Resources.Load<AudioClip>("Forrest1");
-        forrest2 = Resources.Load<AudioClip>("Forrest2");
+        tavernRoom = Resources.Load<AudioClip>("TavernRoom");
+        villageDay = Resources.Load<AudioClip>("VillageDay");
+        villageNight = Resources.Load<AudioClip>("VillageNight");
+        forest1 = Resources.Load<AudioClip>("Forest1");
+        forest2 = Resources.Load<AudioClip>("Forest2");
         river1 = Resources.Load<AudioClip>("River1");
+        dungeon1 = Resources.Load<AudioClip>("Dungeon1");
 
         if (instance != null)
         {
@@ -33,20 +37,50 @@ public class Music : MonoBehaviour
     }
 
     void Update()
-    { 
+    {
         // Update music
-        
+
+        // Tavern room
+        if (CurrentScene.currentScene.scene == "T1")
+        {
+            this.gameObject.GetComponent<AudioSource>().clip = tavernRoom;
+        }
+
         // Village daytime
-        if(CurrentScene.currentScene.scene == "VD1" || CurrentScene.currentScene.scene == "TD6") 
+        if (CurrentScene.currentScene.scene == "VD1" || CurrentScene.currentScene.scene == "TD6") 
         { 
-            this.gameObject.GetComponent<AudioSource>().clip = village1;
-            this.gameObject.GetComponent<AudioSource>().Play();
+            this.gameObject.GetComponent<AudioSource>().clip = villageDay;
+        }
+
+        // Village nighttime
+        if (CurrentScene.currentScene.scene == "VN1" || CurrentScene.currentScene.scene == "TN6")
+        {
+            this.gameObject.GetComponent<AudioSource>().clip = villageNight;
         }
 
         // River
         if (CurrentScene.currentScene.scene == "R1")
         {
             this.gameObject.GetComponent<AudioSource>().clip = river1;
+        }
+
+        // Forest
+        if (CurrentScene.currentScene.scene == "F1")
+        {
+            this.gameObject.GetComponent<AudioSource>().clip = forest2;
+        }
+
+        // Dungeon
+        if (CurrentScene.currentScene.scene == "D1")
+        {
+            this.gameObject.GetComponent<AudioSource>().clip = dungeon1;
+        }
+
+
+
+        // Play music
+        if (this.gameObject.GetComponent<AudioSource>().isPlaying == false)
+        {
             this.gameObject.GetComponent<AudioSource>().Play();
         }
     }

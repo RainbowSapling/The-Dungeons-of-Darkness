@@ -51,7 +51,7 @@
 {"scene":"END9", "option1":null, "option2":null},
 {"scene":"END10", "option1":null, "option2":null},
 {"scene":"FR1", "option1":"F1", "option2":"R1"},
-{"scene":"F1", "option1":"F2", "option2":"F3"},
+{"scene":"F1", "option1":"F3", "option2":"F2"},
 {"scene":"F2", "option1":"F4", "option2":null},
 {"scene":"F3", "option1":"F5", "option2":null},
 {"scene":"F4", "option1":"F3", "option2":null},
