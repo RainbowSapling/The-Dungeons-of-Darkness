@@ -13,6 +13,7 @@ public class Music : MonoBehaviour
     AudioClip forest2;
     AudioClip river1;
     AudioClip dungeon1;
+    AudioClip end;
 
 
     void Awake()
@@ -24,6 +25,7 @@ public class Music : MonoBehaviour
         forest2 = Resources.Load<AudioClip>("Forest2");
         river1 = Resources.Load<AudioClip>("River1");
         dungeon1 = Resources.Load<AudioClip>("Dungeon1");
+        end = Resources.Load<AudioClip>("End");
 
         if (instance != null)
         {
@@ -74,6 +76,14 @@ public class Music : MonoBehaviour
         if (CurrentScene.currentScene.scene == "D1")
         {
             this.gameObject.GetComponent<AudioSource>().clip = dungeon1;
+        }
+
+        // End
+        if (CurrentScene.currentScene.scene == "END1" || CurrentScene.currentScene.scene == "END2" || CurrentScene.currentScene.scene == "END3" || CurrentScene.currentScene.scene == "END4" ||
+            CurrentScene.currentScene.scene == "END5" || CurrentScene.currentScene.scene == "END6" || CurrentScene.currentScene.scene == "END7" || CurrentScene.currentScene.scene == "END8" ||
+            CurrentScene.currentScene.scene == "END9" || CurrentScene.currentScene.scene == "END10")
+        {
+            this.gameObject.GetComponent<AudioSource>().clip = end;
         }
 
 
