@@ -21,7 +21,7 @@ public class GameController : MonoBehaviour
     InputAction option2;
 
     // Array of all scenes and how they connect
-    Scene[] sceneManager;
+    public static Scene[] sceneManager;
 
     // Narrator audio file
     [SerializeField] AudioSource narrator;
@@ -63,8 +63,17 @@ public class GameController : MonoBehaviour
         // Wait untill the narrator has finished talking
         if (narrator.isPlaying == false)
         {
+            // Gamne over -> retart from latest checkpoint
+            if (CurrentScene.currentScene.option1 == null && CurrentScene.currentScene.option2 == null)
+            {
+                // Switch scene
+                SceneManager.LoadScene(Globals.checkpoint.scene);
+                // Update current scene
+                CurrentScene.currentScene = Array.Find(sceneManager, element => element.scene == Globals.checkpoint.scene);
+            }
+            
             // If the current scene doesn't require a choice, continue to the next scene
-            if (CurrentScene.currentScene.option2 == null)
+            else if (CurrentScene.currentScene.option2 == null)
             {
                 // Switch scene
                 SceneManager.LoadScene(CurrentScene.currentScene.option1);
@@ -75,6 +84,8 @@ public class GameController : MonoBehaviour
             // If the current scene does have a choice, listen for controller input
             else
             {
+                EdgeCases();
+
                 if (option1.IsPressed())
                 {
                     Debug.Log("Option 1 was pressed");
@@ -94,6 +105,52 @@ public class GameController : MonoBehaviour
                 }
             }
         }
+
+        // Update globals
+
+        // ------------------------- Checkpoints -----------------------------
+        // Forest checkpoint
+        if (CurrentScene.currentScene.scene == "F1")
+        {
+            Globals.checkpoint = CurrentScene.currentScene;
+        }
+        // River checkpoint
+        if (CurrentScene.currentScene.scene == "R1")
+        {
+            Globals.checkpoint = CurrentScene.currentScene;
+        }
+        // Dungeon checkpoint
+        if (CurrentScene.currentScene.scene == "D1")
+        {
+            Globals.checkpoint = CurrentScene.currentScene;
+        }
+
+        // --------------- Companion ------------------
+        // Player teamed up with Rody
+        if (CurrentScene.currentScene.scene == "F19")
+        {
+            Globals.companion = "Rody";
+        }
+        // Player teamed up with Saber 
+        if (CurrentScene.currentScene.scene == "R18")
+        {
+            Globals.companion = "Saber";
+        }
+
+
+        // ------------ Others -------------
+        // Player found the wizards old house
+        if (CurrentScene.currentScene.scene == "VD9")
+        {
+            Globals.foundHouse = true;
+        }
+
+        // Player made a donation to the kobold
+        if (CurrentScene.currentScene.scene == "D37")
+        {
+            Globals.madeDonation = true;
+        }
+
     }
 
     // Read all scene connections from JSON file and store in variable
@@ -103,6 +160,81 @@ public class GameController : MonoBehaviour
         string sceneData = System.IO.File.ReadAllText(filePath);
 
         sceneManager = Newtonsoft.Json.JsonConvert.DeserializeObject<Scene[]>(sceneData);
+    }
+
+    // Edge cases for if/else statments in navigation
+    void EdgeCases()
+    {
+        // House number
+        if (CurrentScene.currentScene.scene == "D6")
+        {
+            if (Globals.foundHouse == true)
+            {
+                // Switch scene
+                SceneManager.LoadScene("D8a");
+                // Update current scene
+                CurrentScene.currentScene = Array.Find(sceneManager, element => element.scene == "D8a");
+                return;
+            }
+            else
+            {
+                // Switch scene
+                SceneManager.LoadScene("D8b");
+                // Update current scene
+                CurrentScene.currentScene = Array.Find(sceneManager, element => element.scene == "D8b");
+                return;
+            }
+        }
+
+        // Donation
+        if (CurrentScene.currentScene.scene == "D48")
+        {
+            if (Globals.madeDonation == true) 
+            {
+                // Switch scene
+                SceneManager.LoadScene("D49");
+                // Update current scene
+                CurrentScene.currentScene = Array.Find(sceneManager, element => element.scene == "D49");
+                return;
+            }
+            else
+            {
+                // Switch scene
+                SceneManager.LoadScene("D51");
+                // Update current scene
+                CurrentScene.currentScene = Array.Find(sceneManager, element => element.scene == "D51");
+                return;
+            }
+        }
+
+        // Companion
+        if (CurrentScene.currentScene.scene == "D49")
+        {
+            if (Globals.companion == "Rody")
+            {
+                // Switch scene
+                SceneManager.LoadScene("D50a");
+                // Update current scene
+                CurrentScene.currentScene = Array.Find(sceneManager, element => element.scene == "D50a");
+                return;
+            }
+            else if (Globals.companion == "Saber")
+            {
+                // Switch scene
+                SceneManager.LoadScene("D50b");
+                // Update current scene
+                CurrentScene.currentScene = Array.Find(sceneManager, element => element.scene == "D50b");
+                return;
+            }
+            else // No companion
+            {
+                // Switch scene
+                SceneManager.LoadScene("D51");
+                // Update current scene
+                CurrentScene.currentScene = Array.Find(sceneManager, element => element.scene == "D51");
+                return;
+            }
+        }
     }
 
 }
