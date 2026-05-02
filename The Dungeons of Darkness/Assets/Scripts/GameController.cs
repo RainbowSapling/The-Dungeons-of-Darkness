@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using Newtonsoft.Json;
 using System;
+using System.Collections;
 using TMPro;
 
 
@@ -26,10 +27,19 @@ public class GameController : MonoBehaviour
     // Narrator audio file
     [SerializeField] AudioSource narrator;
 
+    // Game over sound effect
+    AudioClip gameOver;
+
     // Text boxes
     [SerializeField] TMP_Text displayCurrent;
     [SerializeField] TMP_Text displayOption1;
     [SerializeField] TMP_Text displayOption2;
+
+    void Awake()
+    {
+        // Assign audio clip
+        gameOver = Resources.Load<AudioClip>("Death1");
+    }
 
     void Start()
     {
@@ -66,10 +76,12 @@ public class GameController : MonoBehaviour
             // Gamne over -> retart from latest checkpoint
             if (CurrentScene.currentScene.option1 == null && CurrentScene.currentScene.option2 == null)
             {
-                // Switch scene
-                SceneManager.LoadScene(Globals.checkpoint.scene);
-                // Update current scene
-                CurrentScene.currentScene = Array.Find(sceneManager, element => element.scene == Globals.checkpoint.scene);
+                // Play game over sound
+                narrator.clip = gameOver;
+                float gameOverSoundLength = narrator.clip.length;
+                narrator.Play();
+
+                StartCoroutine(GameOver(gameOverSoundLength));   
             }
             
             // If the current scene doesn't require a choice, continue to the next scene
@@ -235,6 +247,17 @@ public class GameController : MonoBehaviour
                 return;
             }
         }
+    }
+
+    IEnumerator GameOver (float timeToWait)
+    {
+        yield return new WaitForSeconds(timeToWait);
+
+        // Switch scene
+        SceneManager.LoadScene(Globals.checkpoint.scene);
+        // Update current scene
+        CurrentScene.currentScene = Array.Find(sceneManager, element => element.scene == Globals.checkpoint.scene);
+
     }
 
 }

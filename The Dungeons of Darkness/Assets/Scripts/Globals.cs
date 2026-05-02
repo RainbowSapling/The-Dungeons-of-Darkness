@@ -9,7 +9,7 @@ public class Globals : MonoBehaviour
     public static GameController.Scene checkpoint = Array.Find(GameController.sceneManager, element => element.scene == "T1");
 
     // Found wizards house
-    public static bool foundHouse = true;
+    public static bool foundHouse = false;
 
     // Made donation
     public static bool madeDonation = false;
