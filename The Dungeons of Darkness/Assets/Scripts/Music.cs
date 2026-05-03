@@ -7,6 +7,8 @@ public class Music : MonoBehaviour
 
     // All music clips
     AudioClip tavernRoom;
+    AudioClip tavernDay;
+    AudioClip tavernNight;
     AudioClip villageDay;
     AudioClip villageNight;
     AudioClip forest1;
@@ -19,6 +21,8 @@ public class Music : MonoBehaviour
     void Awake()
     {
         tavernRoom = Resources.Load<AudioClip>("TavernRoom");
+        tavernDay = Resources.Load<AudioClip>("TavernDay");
+        tavernNight = Resources.Load<AudioClip>("TavernNight");
         villageDay = Resources.Load<AudioClip>("VillageDay");
         villageNight = Resources.Load<AudioClip>("VillageNight");
         forest1 = Resources.Load<AudioClip>("Forest1");
@@ -46,6 +50,18 @@ public class Music : MonoBehaviour
         if (CurrentScene.currentScene.scene == "T1")
         {
             this.gameObject.GetComponent<AudioSource>().clip = tavernRoom;
+        }
+
+        // Tavern day
+        if (CurrentScene.currentScene.scene == "TD1")
+        {
+            this.gameObject.GetComponent<AudioSource>().clip = tavernDay;
+        }
+
+        // Tavern night
+        if (CurrentScene.currentScene.scene == "TN1")
+        {
+            this.gameObject.GetComponent<AudioSource>().clip = tavernNight;
         }
 
         // Village daytime
