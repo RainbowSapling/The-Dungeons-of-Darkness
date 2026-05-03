@@ -30,6 +30,9 @@ public class GameController : MonoBehaviour
     // Game over sound effect
     AudioClip gameOver;
 
+    // Combat sound effect
+    AudioClip combat;
+
     // Text boxes
     [SerializeField] TMP_Text displayCurrent;
     [SerializeField] TMP_Text displayOption1;
@@ -39,6 +42,7 @@ public class GameController : MonoBehaviour
     {
         // Assign audio clip
         gameOver = Resources.Load<AudioClip>("Death1");
+        combat = Resources.Load<AudioClip>("Combat");
     }
 
     void Start()
@@ -87,10 +91,25 @@ public class GameController : MonoBehaviour
             // If the current scene doesn't require a choice, continue to the next scene
             else if (CurrentScene.currentScene.option2 == null)
             {
-                // Switch scene
-                SceneManager.LoadScene(CurrentScene.currentScene.option1);
-                // Update current scene
-                CurrentScene.currentScene = Array.Find(sceneManager, element => element.scene == CurrentScene.currentScene.option1);
+                // If combat scene -> play combat sounds
+                if (CurrentScene.currentScene.scene == "C1" || CurrentScene.currentScene.scene == "C2" || CurrentScene.currentScene.scene == "C3" || CurrentScene.currentScene.scene == "C4" ||
+                    CurrentScene.currentScene.scene == "C5" || CurrentScene.currentScene.scene == "C6")
+                {
+                    // Play combat sounds
+                    narrator.clip = combat;
+                    float combatSoundLength = narrator.clip.length;
+                    narrator.Play();
+
+                    StartCoroutine(ContinueAfterCombat(combatSoundLength));
+                }
+                else
+                {
+                    // Switch scene
+                    SceneManager.LoadScene(CurrentScene.currentScene.option1);
+                    // Update current scene
+                    CurrentScene.currentScene = Array.Find(sceneManager, element => element.scene == CurrentScene.currentScene.option1);
+                }
+                
             }
 
             // If the current scene does have a choice, listen for controller input
@@ -247,6 +266,18 @@ public class GameController : MonoBehaviour
                 return;
             }
         }
+    }
+
+
+    IEnumerator ContinueAfterCombat(float timeToWait)
+    {
+        yield return new WaitForSeconds(timeToWait);
+
+        // Switch scene
+        SceneManager.LoadScene(CurrentScene.currentScene.option1);
+        // Update current scene
+        CurrentScene.currentScene = Array.Find(sceneManager, element => element.scene == CurrentScene.currentScene.option1);
+
     }
 
     IEnumerator GameOver (float timeToWait)

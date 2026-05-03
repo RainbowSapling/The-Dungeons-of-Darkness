@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36">
   <diagram name="Sida-1" id="fW8RCnzTAmgBvOjBW9J0">
-    <mxGraphModel dx="1617" dy="2000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2570" dy="2541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -51,6 +51,9 @@
         </mxCell>
         <mxCell id="0ZYTwULGCp5EO8ZLAlMj-6" parent="bVKxj864shOD7K9TONzq-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;[END7]&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;You died...&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="160" x="2740" y="1127.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JiiSkYCKeJCf_oEjtfbS-1" parent="bVKxj864shOD7K9TONzq-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;[F21]&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;After dealing with the goblin, you wipe the blood off your sword and continue making your way through the forest.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="85" width="280" x="4030" y="852.5" as="geometry" />
         </mxCell>
         <mxCell id="FS-BcXCiowx4MnNQ4kOs-32" parent="1" style="swimlane;startSize=0;fillStyle=dots;gradientColor=none;swimlaneFillColor=light-dark(#FFFFFF,#150A43);strokeColor=none;" value="" vertex="1">
           <mxGeometry height="1760" width="5930" y="-770" as="geometry" />
@@ -497,7 +500,7 @@
         <mxCell id="FS-BcXCiowx4MnNQ4kOs-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;[F6]&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Approach slowly, staying hidden.&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="280" x="7570" y="-65" as="geometry" />
         </mxCell>
-        <mxCell id="FS-BcXCiowx4MnNQ4kOs-81" edge="1" parent="1" source="lLoh9tLJKBlNS2tbCJMA-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="FS-BcXCiowx4MnNQ4kOs-78">
+        <mxCell id="FS-BcXCiowx4MnNQ4kOs-81" edge="1" parent="1" source="JiiSkYCKeJCf_oEjtfbS-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="FS-BcXCiowx4MnNQ4kOs-78">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="10440" y="125" />
@@ -1306,6 +1309,13 @@
         </mxCell>
         <mxCell id="WKT5p4N93HwazKEguUlr-69" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;[O1] The End.&lt;/font&gt;" vertex="1">
           <mxGeometry height="60" width="298" x="28233.5" y="705" as="geometry" />
+        </mxCell>
+        <mxCell id="JiiSkYCKeJCf_oEjtfbS-2" edge="1" parent="1" source="lLoh9tLJKBlNS2tbCJMA-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="JiiSkYCKeJCf_oEjtfbS-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="9830" y="125" as="sourcePoint" />
+            <mxPoint x="10490" y="-185" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

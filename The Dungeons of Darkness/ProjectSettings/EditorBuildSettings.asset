@@ -222,6 +222,9 @@ EditorBuildSettings:
     path: Assets/Scenes/F20.unity
     guid: 65ebfa0f612655a47a7e10bea6689aa5
   - enabled: 1
+    path: Assets/Scenes/F21.unity
+    guid: 255b21a0c8734684789c3fc31e16e8cd
+  - enabled: 1
     path: Assets/Scenes/R1.unity
     guid: 00d39eafd71a63b4983b35b2b0fb04f9
   - enabled: 1
