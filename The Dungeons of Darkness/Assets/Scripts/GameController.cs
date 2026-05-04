@@ -77,9 +77,16 @@ public class GameController : MonoBehaviour
         // Wait untill the narrator has finished talking
         if (narrator.isPlaying == false)
         {
-            // Gamne over -> retart from latest checkpoint
+            // Game over -> retart from latest checkpoint
             if (CurrentScene.currentScene.option1 == null && CurrentScene.currentScene.option2 == null)
             {
+                // Check if it's the last scene, if it is close game
+                if (CurrentScene.currentScene.scene == "O1")
+                {
+                    Application.Quit();
+                    Debug.Log("quit");
+                }
+                
                 // Play game over sound
                 narrator.clip = gameOver;
                 float gameOverSoundLength = narrator.clip.length;
