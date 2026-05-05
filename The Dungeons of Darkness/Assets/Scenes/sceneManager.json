@@ -150,7 +150,7 @@
 {"scene":"D50a", "option1":"D51", "option2":null},
 {"scene":"D50b", "option1":"D51", "option2":null},
 {"scene":"D51", "option1":"C5", "option2":null},
-{"scene":"D52", "option1":"D54", "option2":"D53"},
+{"scene":"D52", "option1":"D53", "option2":"D54"},
 {"scene":"D53", "option1":"D55", "option2":null},
 {"scene":"D54", "option1":"D58", "option2":null},
 {"scene":"D55", "option1":"D56", "option2":"D57"},
