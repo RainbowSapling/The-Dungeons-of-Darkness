@@ -6,6 +6,8 @@ using Newtonsoft.Json;
 using System;
 using System.Collections;
 using TMPro;
+using UnityEditor;
+using UnityEditor.SceneManagement;
 
 
 public class GameController : MonoBehaviour
@@ -83,8 +85,12 @@ public class GameController : MonoBehaviour
                 // Check if it's the last scene, if it is close game
                 if (CurrentScene.currentScene.scene == "O1")
                 {
+#if UNITY_EDITOR
+                    EditorApplication.ExitPlaymode();
+#else
                     Application.Quit();
                     Debug.Log("quit");
+#endif
                 }
                 
                 // Play game over sound
