@@ -48,7 +48,7 @@ public class Music : MonoBehaviour
     {
         // Update music
 
-        // Tavern room
+        // Tavern room (Start of game)
         if (CurrentScene.currentScene.scene == "T1")
         {
             this.gameObject.GetComponent<AudioSource>().clip = tavernRoom;
