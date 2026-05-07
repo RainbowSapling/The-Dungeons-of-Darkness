@@ -37,6 +37,11 @@ public class SFX : MonoBehaviour
         // Update sfx
 
 
+        // Tavern checkpoint
+        if (CurrentScene.currentScene.scene == "T1")
+        {
+            this.gameObject.GetComponent<AudioSource>().clip = null;
+        }
         // Tavern night
         if (CurrentScene.currentScene.scene == "TN1")
         {
@@ -64,6 +69,13 @@ public class SFX : MonoBehaviour
         }
         // Dungeon -> nothing
         if (CurrentScene.currentScene.scene == "D1")
+        {
+            this.gameObject.GetComponent<AudioSource>().clip = null;
+        }
+        // End
+        if (CurrentScene.currentScene.scene == "END1" || CurrentScene.currentScene.scene == "END2" || CurrentScene.currentScene.scene == "END3" || CurrentScene.currentScene.scene == "END4" ||
+            CurrentScene.currentScene.scene == "END5" || CurrentScene.currentScene.scene == "END6" || CurrentScene.currentScene.scene == "END7" || CurrentScene.currentScene.scene == "END8" ||
+            CurrentScene.currentScene.scene == "END9" || CurrentScene.currentScene.scene == "END10")
         {
             this.gameObject.GetComponent<AudioSource>().clip = null;
         }
