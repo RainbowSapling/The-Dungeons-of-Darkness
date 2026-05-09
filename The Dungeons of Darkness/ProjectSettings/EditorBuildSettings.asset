@@ -327,6 +327,9 @@ EditorBuildSettings:
     path: Assets/Scenes/D8a.unity
     guid: d59776e8d6393c34292ce6011242617a
   - enabled: 1
+    path: Assets/Scenes/D8b.unity
+    guid: 836605870622a8a4aa92a381c5b4a62b
+  - enabled: 1
     path: Assets/Scenes/D9.unity
     guid: 87f6438dd1683af4fb08b465af25a59f
   - enabled: 1

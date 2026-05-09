@@ -79,7 +79,7 @@
 {"scene":"R4", "option1":"R10", "option2":null},
 {"scene":"R5", "option1":"R6", "option2":"R7"},
 {"scene":"R6", "option1":"R8", "option2":null},
-{"scene":"R7", "option1":"F10", "option2":null},
+{"scene":"R7", "option1":"R10", "option2":null},
 {"scene":"R8", "option1":"C3", "option2":null},
 {"scene":"R9", "option1":"R10", "option2":null},
 {"scene":"R10", "option1":"R11", "option2":null},
