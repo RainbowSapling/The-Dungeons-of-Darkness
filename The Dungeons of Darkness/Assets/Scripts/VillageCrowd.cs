@@ -38,7 +38,14 @@ public class VillageCrowd : MonoBehaviour
         {
             this.gameObject.GetComponent<AudioSource>().clip = null;
         }
- 
+        // End
+        if (CurrentScene.currentScene.scene == "END1" || CurrentScene.currentScene.scene == "END2" || CurrentScene.currentScene.scene == "END3" || CurrentScene.currentScene.scene == "END4" ||
+            CurrentScene.currentScene.scene == "END5" || CurrentScene.currentScene.scene == "END6" || CurrentScene.currentScene.scene == "END7" || CurrentScene.currentScene.scene == "END8" ||
+            CurrentScene.currentScene.scene == "END9" || CurrentScene.currentScene.scene == "END10")
+        {
+            this.gameObject.GetComponent<AudioSource>().clip = null;
+        }
+
 
 
 
