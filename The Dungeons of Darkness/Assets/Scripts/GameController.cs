@@ -7,7 +7,7 @@ using System;
 using System.Collections;
 using TMPro;
 using UnityEditor;
-using UnityEditor.SceneManagement;
+
 
 
 public class GameController : MonoBehaviour
@@ -45,6 +45,9 @@ public class GameController : MonoBehaviour
         // Assign audio clip
         gameOver = Resources.Load<AudioClip>("Death1");
         combat = Resources.Load<AudioClip>("Combat");
+
+        // Load scenes from JSON file
+        LoadScenes();
     }
 
     void Start()
@@ -56,9 +59,7 @@ public class GameController : MonoBehaviour
         // Play the narrator audio
         narrator.Play();
 
-        // Load scenes from JSON file
-        LoadScenes();
-
+        
         // Assign current scene
         if (CurrentScene.currentScene.scene == null)
         {
@@ -85,12 +86,8 @@ public class GameController : MonoBehaviour
                 // Check if it's the last scene, if it is close game
                 if (CurrentScene.currentScene.scene == "O1")
                 {
-#if UNITY_EDITOR
-                    EditorApplication.ExitPlaymode();
-#else
                     Application.Quit();
                     Debug.Log("quit");
-#endif
                 }
                 
                 // Play game over sound
@@ -200,7 +197,7 @@ public class GameController : MonoBehaviour
     // Read all scene connections from JSON file and store in variable
     void LoadScenes()
     {
-        string filePath = Application.dataPath + "/Scenes/sceneManager.json";
+        string filePath = Application.dataPath + "/sceneManager.json";
         string sceneData = System.IO.File.ReadAllText(filePath);
 
         sceneManager = Newtonsoft.Json.JsonConvert.DeserializeObject<Scene[]>(sceneData);
